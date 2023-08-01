@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    tools:context=".SendEmailActivity">
+
+    <TextView
+        android:id="@+id/txtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To:"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="8dp" />
+
+    <EditText
+        android:id="@+id/toMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtVw"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:padding="8dp"
+        android:hint="email address"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="8dp"/>
+
+    <TextView
+        android:id="@+id/subjectTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject: "
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toMail"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="8dp" />
+
+    <EditText
+        android:id="@+id/subjectOfMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/subjectTxt"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:padding="8dp"
+        android:hint="subject"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="8dp"/>
+
+    <TextView
+        android:id="@+id/messageTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message:"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subjectOfMail"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="8dp" />
+
+    <EditText
+        android:id="@+id/messageToSent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/messageTxt"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:padding="8dp"
+        android:hint="message"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="8dp"/>
+
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/messageToSent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        android:text="Send"
+        android:background="@drawable/shape_rounded_rect"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

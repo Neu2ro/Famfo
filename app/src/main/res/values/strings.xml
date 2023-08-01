@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Famfo</string>
+    <string name="sos">SOS</string>
+    <string name="in_case_of_emergency_keep_telling_family_to_contact_me">In case of emergency, keep telling family to contact me !</string>
+    <string name="guard">GUARD</string>
+    <string name="open_when_you_are_potentially_on_a_dangerous_journey">Open when you are potentially on a dangerous journey</string>
+    <string name="security">Security</string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="profile">Profile</string>
+    <string name="my_family">My Family</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="vivek_balani">Vivek Balani</string>
+    <string name="flat_no_405_white_house_apt_near_jhulelal_trust_school_ulhasnagar_2">Flat No. 405, White house Apt., Near Jhulelal trust school, Ulhasnagar 2</string>
+    <string name="_8_30">8:30</string>
+    <string name="wifi">WiFi</string>
+    <string name="_223m">223M</string>
+    <string name="_90">90%</string>
+    <string name="registration">Registration</string>
+    <string name="name">Name</string>
+    <string name="email_address">email address</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="emi_calculator">EMI calculator</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="_0">0</string>
+    <string name="interest_per_month_in">Interest per month (in %)</string>
+    <string name="_0_0">0.0 %</string>
+    <string name="time">Time</string>
+    <string name="year">Year</string>
+    <string name="months">Months</string>
+    <string name="summary">Summary</string>
+    <string name="clear">Clear</string>
+    <string name="emi">EMI</string>
+    <string name="invite">Invite</string>
+</resources>
